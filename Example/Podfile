@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGPopoverController_Example' do
+  pod 'CGPopoverController', :path => '../'
+
+  target 'CGPopoverController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
