@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "CGContainerController_Example.app"
-               BlueprintName = "CGContainerController_Example"
-               ReferencedContainer = "container:CGContainerController.xcodeproj">
+               BuildableName = "CGPopoverController_Example.app"
+               BlueprintName = "CGPopoverController_Example"
+               ReferencedContainer = "container:CGPopoverController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "CGContainerController_Tests.xctest"
-               BlueprintName = "CGContainerController_Tests"
-               ReferencedContainer = "container:CGContainerController.xcodeproj">
+               BuildableName = "CGPopoverController_Tests.xctest"
+               BlueprintName = "CGPopoverController_Tests"
+               ReferencedContainer = "container:CGPopoverController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CGContainerController_Example.app"
-            BlueprintName = "CGContainerController_Example"
-            ReferencedContainer = "container:CGContainerController.xcodeproj">
+            BuildableName = "CGPopoverController_Example.app"
+            BlueprintName = "CGPopoverController_Example"
+            ReferencedContainer = "container:CGPopoverController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CGContainerController_Example.app"
-            BlueprintName = "CGContainerController_Example"
-            ReferencedContainer = "container:CGContainerController.xcodeproj">
+            BuildableName = "CGPopoverController_Example.app"
+            BlueprintName = "CGPopoverController_Example"
+            ReferencedContainer = "container:CGPopoverController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CGContainerController_Example.app"
-            BlueprintName = "CGContainerController_Example"
-            ReferencedContainer = "container:CGContainerController.xcodeproj">
+            BuildableName = "CGPopoverController_Example.app"
+            BlueprintName = "CGPopoverController_Example"
+            ReferencedContainer = "container:CGPopoverController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

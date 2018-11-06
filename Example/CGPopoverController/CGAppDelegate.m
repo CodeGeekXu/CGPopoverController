@@ -1,26 +1,18 @@
 //
 //  CGAppDelegate.m
-//  CGContainerController
+//  CGPopoverController
 //
-//  Created by CodeGeekXu on 09/02/2018.
-//  Copyright (c) 2018 CodeGeekXu. All rights reserved.
+//  Created by codegeekxu@gmail.com on 09/03/2018.
+//  Copyright (c) 2018 codegeekxu@gmail.com. All rights reserved.
 //
 
 #import "CGAppDelegate.h"
-#import "ContainerController.h"
 
 @implementation CGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    ContainerController *rootViewControllor = [[ContainerController alloc] init];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = rootViewControllor;
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 

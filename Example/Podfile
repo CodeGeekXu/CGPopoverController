@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'CGContainerController_Example' do
-  pod 'CGContainerController', :path => '../'
+target 'CGPopoverController_Example' do
+  pod 'CGPopoverController', :path => '../'
 
-  target 'CGContainerController_Tests' do
+  target 'CGPopoverController_Tests' do
     inherit! :search_paths
 
     

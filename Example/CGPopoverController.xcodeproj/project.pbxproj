@@ -21,10 +21,11 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		AC27B32C943A5E069CEBB447 /* Pods_CGContainerController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */; };
-		DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3AAC5A213B829700B25813 /* ContainerController.m */; };
-		DCC9DA1F213CDEFA0060989C /* CGContainerController.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */; };
-		EDEEC0D15CDB811C2DCE99DE /* Pods_CGContainerController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DC6B68962191645900A2D2AE /* CGPopoverController.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC6B68942191645800A2D2AE /* CGPopoverController.jpeg */; };
+		DC6B68972191645900A2D2AE /* CGPopoverTableController.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC6B68952191645900A2D2AE /* CGPopoverTableController.jpeg */; };
+		F85ACE288B7403F198C3C5C4 /* Pods_CGPopoverController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72379C70415A6CF2C4C1D58A /* Pods_CGPopoverController_Tests.framework */; };
+		FB59299D393B17DE7C57DD63 /* Pods_CGPopoverController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E02B9AEB8A7955F989B2FA /* Pods_CGPopoverController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,43 +34,43 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = CGContainerController;
+			remoteInfo = CGPopoverController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E3860E67BFD675E4EBE22A4 /* Pods-CGContainerController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1917E5E5C4AFFA946E4E7246 /* Pods-CGContainerController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGContainerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39C0163C0625CEAD1165E761 /* Pods-CGContainerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGContainerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		419442FDB7CAF978541EFB37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4EEA76F75E5F173E6286624A /* CGContainerController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGContainerController.podspec; path = ../CGContainerController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6003F58A195388D20070C39A /* CGContainerController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGContainerController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234B943034CF5C8684ABD093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2DEBE418D40357D0552C3498 /* Pods-CGPopoverController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPopoverController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGPopoverController_Example/Pods-CGPopoverController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* CGPopoverController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGPopoverController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* CGContainerController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGContainerController-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* CGPopoverController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGPopoverController-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* CGContainerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGContainerController-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* CGPopoverController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGPopoverController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* CGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* CGContainerController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContainerController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CGPopoverController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGPopoverController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6D0C5FCBCD46EF35E93F72A5 /* CGPopoverController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGPopoverController.podspec; path = ../CGPopoverController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGContainerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGContainerController_Tests/Pods-CGContainerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC3AAC59213B829600B25813 /* ContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
-		DC3AAC5A213B829700B25813 /* ContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
-		DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CGContainerController.gif; sourceTree = "<group>"; };
-		EC3B7FCF6F50E26C327F7C1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		72379C70415A6CF2C4C1D58A /* Pods_CGPopoverController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGPopoverController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98ACE98C1EB875AA0294C3F6 /* Pods-CGPopoverController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPopoverController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGPopoverController_Tests/Pods-CGPopoverController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E02B9AEB8A7955F989B2FA /* Pods_CGPopoverController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGPopoverController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEF8E11B66776311995891A /* Pods-CGPopoverController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPopoverController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGPopoverController_Example/Pods-CGPopoverController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8DEBD96FE52A06CE521B15E /* Pods-CGPopoverController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPopoverController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGPopoverController_Tests/Pods-CGPopoverController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC6B68942191645800A2D2AE /* CGPopoverController.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CGPopoverController.jpeg; sourceTree = "<group>"; };
+		DC6B68952191645900A2D2AE /* CGPopoverTableController.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CGPopoverTableController.jpeg; sourceTree = "<group>"; };
+		EC792677BFC07929CBC43B79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EDEEC0D15CDB811C2DCE99DE /* Pods_CGContainerController_Example.framework in Frameworks */,
+				FB59299D393B17DE7C57DD63 /* Pods_CGPopoverController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,20 +92,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				AC27B32C943A5E069CEBB447 /* Pods_CGContainerController_Tests.framework in Frameworks */,
+				F85ACE288B7403F198C3C5C4 /* Pods_CGPopoverController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CFB8D00EFE73314F22AD6C0 /* Pods */ = {
+		113C9B53279719DE1ABD0B53 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E3860E67BFD675E4EBE22A4 /* Pods-CGContainerController_Example.debug.xcconfig */,
-				1917E5E5C4AFFA946E4E7246 /* Pods-CGContainerController_Example.release.xcconfig */,
-				86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */,
-				39C0163C0625CEAD1165E761 /* Pods-CGContainerController_Tests.release.xcconfig */,
+				2DEBE418D40357D0552C3498 /* Pods-CGPopoverController_Example.debug.xcconfig */,
+				9AEF8E11B66776311995891A /* Pods-CGPopoverController_Example.release.xcconfig */,
+				98ACE98C1EB875AA0294C3F6 /* Pods-CGPopoverController_Tests.debug.xcconfig */,
+				C8DEBD96FE52A06CE521B15E /* Pods-CGPopoverController_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -113,19 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for CGContainerController */,
+				6003F593195388D20070C39A /* Example for CGPopoverController */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				5CFB8D00EFE73314F22AD6C0 /* Pods */,
+				113C9B53279719DE1ABD0B53 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CGContainerController_Example.app */,
-				6003F5AE195388D20070C39A /* CGContainerController_Tests.xctest */,
+				6003F58A195388D20070C39A /* CGPopoverController_Example.app */,
+				6003F5AE195388D20070C39A /* CGPopoverController_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,37 +138,37 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2C171A69983821A0F6110045 /* Pods_CGContainerController_Example.framework */,
-				403F110D6BDFCAE68B797756 /* Pods_CGContainerController_Tests.framework */,
+				99E02B9AEB8A7955F989B2FA /* Pods_CGPopoverController_Example.framework */,
+				72379C70415A6CF2C4C1D58A /* Pods_CGPopoverController_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for CGContainerController */ = {
+		6003F593195388D20070C39A /* Example for CGPopoverController */ = {
 			isa = PBXGroup;
 			children = (
-				DCC9DA1E213CDEFA0060989C /* CGContainerController.gif */,
+				DC6B68942191645800A2D2AE /* CGPopoverController.jpeg */,
+				DC6B68952191645900A2D2AE /* CGPopoverTableController.jpeg */,
 				6003F59C195388D20070C39A /* CGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CGAppDelegate.m */,
-				DC3AAC59213B829600B25813 /* ContainerController.h */,
-				DC3AAC5A213B829700B25813 /* ContainerController.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CGViewController.h */,
 				6003F5A6195388D20070C39A /* CGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for CGContainerController";
-			path = CGContainerController;
+			name = "Example for CGPopoverController";
+			path = CGPopoverController;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* CGContainerController-Info.plist */,
+				6003F595195388D20070C39A /* CGPopoverController-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* CGContainerController-Prefix.pch */,
+				6003F59B195388D20070C39A /* CGPopoverController-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,9 +195,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4EEA76F75E5F173E6286624A /* CGContainerController.podspec */,
-				EC3B7FCF6F50E26C327F7C1D /* README.md */,
-				419442FDB7CAF978541EFB37 /* LICENSE */,
+				6D0C5FCBCD46EF35E93F72A5 /* CGPopoverController.podspec */,
+				EC792677BFC07929CBC43B79 /* README.md */,
+				234B943034CF5C8684ABD093 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -204,30 +205,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* CGContainerController_Example */ = {
+		6003F589195388D20070C39A /* CGPopoverController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CGContainerController_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CGPopoverController_Example" */;
 			buildPhases = (
-				A47D8B62FDA17CAACC07BC3B /* [CP] Check Pods Manifest.lock */,
+				A809DDAD15AC700180897A40 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D12D2108FF086E4481F02CB6 /* [CP] Embed Pods Frameworks */,
+				EADEC61A64A3883138B23B59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CGContainerController_Example;
-			productName = CGContainerController;
-			productReference = 6003F58A195388D20070C39A /* CGContainerController_Example.app */;
+			name = CGPopoverController_Example;
+			productName = CGPopoverController;
+			productReference = 6003F58A195388D20070C39A /* CGPopoverController_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* CGContainerController_Tests */ = {
+		6003F5AD195388D20070C39A /* CGPopoverController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CGContainerController_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CGPopoverController_Tests" */;
 			buildPhases = (
-				798E914F55057E1B16D8A422 /* [CP] Check Pods Manifest.lock */,
+				99C6BF2E6894C370E0F16628 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -237,9 +238,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = CGContainerController_Tests;
-			productName = CGContainerControllerTests;
-			productReference = 6003F5AE195388D20070C39A /* CGContainerController_Tests.xctest */;
+			name = CGPopoverController_Tests;
+			productName = CGPopoverControllerTests;
+			productReference = 6003F5AE195388D20070C39A /* CGPopoverController_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -250,17 +251,14 @@
 			attributes = {
 				CLASSPREFIX = CG;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = CodeGeekXu;
+				ORGANIZATIONNAME = "codegeekxu@gmail.com";
 				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						ProvisioningStyle = Manual;
-					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CGContainerController" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CGPopoverController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,8 +271,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* CGContainerController_Example */,
-				6003F5AD195388D20070C39A /* CGContainerController_Tests */,
+				6003F589195388D20070C39A /* CGPopoverController_Example */,
+				6003F5AD195388D20070C39A /* CGPopoverController_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,9 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6B68972191645900A2D2AE /* CGPopoverTableController.jpeg in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				DC6B68962191645900A2D2AE /* CGPopoverController.jpeg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				DCC9DA1F213CDEFA0060989C /* CGContainerController.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +302,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		798E914F55057E1B16D8A422 /* [CP] Check Pods Manifest.lock */ = {
+		99C6BF2E6894C370E0F16628 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,14 +313,14 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CGContainerController_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CGPopoverController_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A47D8B62FDA17CAACC07BC3B /* [CP] Check Pods Manifest.lock */ = {
+		A809DDAD15AC700180897A40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,33 +331,29 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CGContainerController_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CGPopoverController_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D12D2108FF086E4481F02CB6 /* [CP] Embed Pods Frameworks */ = {
+		EADEC61A64A3883138B23B59 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CGContainerController/CGContainerController.framework",
-				"${BUILT_PRODUCTS_DIR}/CGSegmentBar/CGSegmentBar.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CGPopoverController_Example/Pods-CGPopoverController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CGPopoverController/CGPopoverController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGContainerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGSegmentBar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGPopoverController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGContainerController_Example/Pods-CGContainerController_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGPopoverController_Example/Pods-CGPopoverController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -370,7 +366,6 @@
 				6003F59E195388D20070C39A /* CGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				DC3AAC5B213B829700B25813 /* ContainerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +382,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* CGContainerController_Example */;
+			target = 6003F589195388D20070C39A /* CGPopoverController_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -495,43 +490,37 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E3860E67BFD675E4EBE22A4 /* Pods-CGContainerController_Example.debug.xcconfig */;
+			baseConfigurationReference = 2DEBE418D40357D0552C3498 /* Pods-CGPopoverController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CGContainerController/CGContainerController-Prefix.pch";
-				INFOPLIST_FILE = "CGContainerController/CGContainerController-Info.plist";
+				GCC_PREFIX_HEADER = "CGPopoverController/CGPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "CGPopoverController/CGPopoverController-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1917E5E5C4AFFA946E4E7246 /* Pods-CGContainerController_Example.release.xcconfig */;
+			baseConfigurationReference = 9AEF8E11B66776311995891A /* Pods-CGPopoverController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CGContainerController/CGContainerController-Prefix.pch";
-				INFOPLIST_FILE = "CGContainerController/CGContainerController-Info.plist";
+				GCC_PREFIX_HEADER = "CGPopoverController/CGPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "CGPopoverController/CGPopoverController-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86F786FB039685F5A8A51F94 /* Pods-CGContainerController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 98ACE98C1EB875AA0294C3F6 /* Pods-CGPopoverController_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,14 +537,14 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGContainerController_Example.app/CGContainerController_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGPopoverController_Example.app/CGPopoverController_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C0163C0625CEAD1165E761 /* Pods-CGContainerController_Tests.release.xcconfig */;
+			baseConfigurationReference = C8DEBD96FE52A06CE521B15E /* Pods-CGPopoverController_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -568,7 +557,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGContainerController_Example.app/CGContainerController_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGPopoverController_Example.app/CGPopoverController_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -576,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "CGContainerController" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "CGPopoverController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -585,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CGContainerController_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CGPopoverController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -594,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CGContainerController_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CGPopoverController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
