@@ -6,6 +6,12 @@ a Object-C popover controller
 [![License](https://img.shields.io/cocoapods/l/CGSegmentBar.svg?style=flat)](https://cocoapods.org/pods/CGPopoverController)
 [![Platform](https://img.shields.io/cocoapods/p/CGSegmentBar.svg?style=flat)](https://cocoapods.org/pods/CGPopoverController)
 
+## Demo
+
+![jpeg](https://github.com/CodeGeekXu/CGPopoverController/blob/master/Example/CGPopoverController/CGPopoverController.jpeg)
+
+![jpeg](https://github.com/CodeGeekXu/CGPopoverController/blob/master/Example/CGPopoverController/CGPopoverTableController.jpeg)
+
 ## Installation
 
 CGPopoverController is available through [CocoaPods](https://cocoapods.org). To install
