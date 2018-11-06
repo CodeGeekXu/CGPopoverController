@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGContainerController_Example' do
+  pod 'CGContainerController', :path => '../'
+
+  target 'CGContainerController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
